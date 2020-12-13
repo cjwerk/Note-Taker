@@ -5,11 +5,22 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "nodemon server.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.4"
-  }
+    "express": "^4.17.1",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.6"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cjwerk/Note-Taker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cjwerk/Note-Taker/issues"
+  },
+  "homepage": "https://github.com/cjwerk/Note-Taker#readme"
 }
